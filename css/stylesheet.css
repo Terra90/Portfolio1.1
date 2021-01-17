@@ -39,8 +39,8 @@ html, body {
     background-position: right;
     background-repeat: no-repeat;
     align-items: end;
-    filter: blur(5px);
-    position: fixed;
+    filter: blur(4px);
+    position: relative;
     height: 100%;
     width: 100%;
     display: flex;
@@ -51,6 +51,7 @@ html, body {
 
 .lightbubble {
     background-color: #ffdead;
+    background-repeat: no-repeat;
     filter: blur(2px);
     width: 8px;
     height: 8px;
@@ -58,9 +59,9 @@ html, body {
     border-radius: 50%;
     padding: 10px 10px;
     z-index: 2;
-    right: 31rem;
-    top: 15rem;
-    position: inherit;
+    right: 21.4%;
+    top: 19%;
+    position: absolute;
     animation: Shining 5s infinite;
 }
 
